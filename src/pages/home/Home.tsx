@@ -1,5 +1,4 @@
 import { RickyAndMortyUserAdapter } from "@/adapter";
-import { RickAndMortyUser } from "@/models";
 import { createUser } from "@/redux/slices/user.slice";
 import { fetchRickAndMorty, rickandMortyURL } from "@/services";
 import { useEffect } from "react";
